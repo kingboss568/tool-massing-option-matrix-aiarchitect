@@ -3,59 +3,71 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tool | Massing Option Matrix</title>
-  <meta name="description" content="Full working tool with copy, save, and JSON export actions.">
+  <title>Massing Option Matrix Tool | Massing Option Matrix</title>
+  <meta name="description" content="Run the Massing Option Matrix workflow with browser-side inputs, copy output, local save, and JSON export.">
   <link rel="canonical" href="https://massing.ai-architect.com/tool/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta property="og:title" content="Massing Option Matrix Tool | Massing Option Matrix">
+  <meta property="og:description" content="Run the Massing Option Matrix workflow with browser-side inputs, copy output, local save, and JSON export.">
+  <meta property="og:url" content="https://massing.ai-architect.com/tool/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://massing.ai-architect.com/assets/visual.png">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="google-adsense-account" content="ca-pub-0268893833921284">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0268893833921284" crossorigin="anonymous"></script>
+  <link rel="preload" as="image" href="../assets/visual.png">
   <link rel="stylesheet" href="../styles.css">
+  <script type="application/ld+json">[{"@context":"https://schema.org","@type":"WebPage","name":"Massing Option Matrix Tool","description":"Run the Massing Option Matrix workflow with browser-side inputs, copy output, local save, and JSON export.","url":"https://massing.ai-architect.com/tool/","applicationCategory":"BusinessApplication","isPartOf":{"@type":"WebSite","name":"Massing Option Matrix","url":"https://massing.ai-architect.com/"}},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Massing Option Matrix","item":"https://massing.ai-architect.com/"},{"@type":"ListItem","position":2,"name":"Massing Option Matrix Tool","item":"https://massing.ai-architect.com/tool/"}]}]</script>
 </head>
-<body style="--bg:#f2f4ee;--panel:#fffdf5;--ink:#202821;--accent:#516f38;--accent-2:#b46f43;--line:#cdd5c8">
+<body style="--bg:#f4f6f1;--panel:#fffdfa;--ink:#17211f;--muted:#596661;--accent:#0f6f67;--accent-2:#b85f30;--line:#cad6d1;--dark:#13201f" data-archetype="ai" data-layout="compact">
   <header class="topbar">
-    <a class="brand" href="../"><span class="brand-mark">MA</span><span>ai-architect.com</span></a>
-    <nav class="nav" aria-label="Primary">
-      <a href="../tool/">Tool</a>
-      <a href="../templates/">Templates</a>
-      <a href="../workspace/">Workspace</a>
-      <a href="../plans/">Plans</a>
-    </nav>
+    <a class="brand" href="../"><span class="brand-mark">MO</span><span>massing.ai-architect.com</span></a>
+    <nav class="nav" aria-label="Primary"><a href="../tool/">Tool</a><a href="../guides/">Guides</a><a href="../library/">Library</a><a href="../templates/">Templates</a><a href="../compare/">Compare</a></nav>
   </header>
   <main>
-    <section class="app-grid"><nav class="side-nav" aria-label="App sections"><a href="../" >Dashboard</a><a href="../tool/" aria-current="page">Tool</a><a href="../workspace/" >Workspace</a><a href="../templates/" >Templates</a><a href="../reports/" >Reports</a><a href="../library/" >Library</a><a href="../examples/" >Examples</a><a href="../checklists/" >Checklists</a><a href="../integrations/" >Integrations</a><a href="../settings/" >Settings</a><a href="../plans/" >Plans</a><a href="../faq/" >FAQ</a></nav><div class="workspace-main"><section class="hero-tool" id="tool">
+    <section class="hero hero-compact">
+    <div class="hero-copy">
+      <p class="eyebrow">Working tool</p>
+      <h1>Massing Option Matrix Tool</h1>
+      <p class="lede">Run the Massing Option Matrix workflow with browser-side inputs, copy output, local save, and JSON export.</p>
+      <div class="action-row">
+        <a class="button" href="../tool/">Model the workflow</a>
+        <a class="button secondary" href="../guides/">Read guides</a>
+      </div>
+      <div class="hero-stats">
+        <div><span>Pages</span><strong>121</strong></div>
+        <div><span>Family</span><strong>AI Lab</strong></div>
+        <div><span>Export</span><strong>Copy / JSON</strong></div>
+      </div>
+    </div>
+    <figure class="visual-frame">
+      <img src="../assets/visual.png" alt="Massing Option Matrix visual interface concept">
+    </figure>
+  </section><section class="tool-stage" id="tool">
     <div class="tool-panel">
-      <div class="panel-heading"><h2>Inputs</h2><span class="pill">65 / 85</span></div>
+      <div class="panel-heading"><span>Inputs</span><strong>matrix</strong></div>
       <div class="fields-grid" id="toolFields"></div>
     </div>
     <div class="result-panel">
       <div class="result-toolbar">
-        <h2>Result</h2>
+        <div><span class="eyebrow">Live output</span><h2>Result</h2></div>
         <div class="toolbar-row">
           <button class="button secondary" id="copyExport" type="button">Copy output</button>
-          <button class="button secondary" type="button" data-save-current>Save project</button>
-          <button class="button" type="button" data-download-current>Download JSON</button>
+          <button class="button secondary" type="button" data-save-current>Save</button>
+          <button class="button" type="button" data-download-current>Export JSON</button>
         </div>
       </div>
       <div id="toolResult"></div>
-      <div class="ad-unit" aria-label="Advertisement"><span>Advertisement</span></div>
     </div>
-  </section>
-  <section class="content-band">
-    <div class="section-heading"><h2>Use Cases</h2><p>Built for repeat workflows, not one-off thin content.</p></div>
-    <div class="example-grid" id="examples"></div>
-  </section>
-  <section class="content-band">
-    <div class="section-heading"><h2>Limits</h2><p>Every generated result needs professional review before publication or project issue.</p></div>
-    <ul class="checklist" id="limits"></ul>
-  </section>
-  <section class="content-band">
-    <div class="section-heading"><h2>FAQ</h2><p>Short support answers for the SaaS pilot.</p></div>
-    <div id="faq"></div>
-  </section></div></section>
-    
+  </section><aside class="ad-unit" aria-label="Advertisement">
+    <span>Advertisement</span>
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0268893833921284" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  </aside>
   </main>
-  <footer class="footer"><span>Massing Option Matrix for ai-architect.com</span><a href="../privacy/">Privacy</a></footer>
-  <script>window.SITE_CONFIG = {"title":"Massing Option Matrix","kind":"matrix","fields":[{"id":"rows","label":"Rows: option, Daylight, Cost, Buildability, Identity","type":"textarea","default":"Courtyard bar,8,7,7,8\nStacked volumes,7,6,8,9\nLinear slab,6,8,9,6","rows":7,"hint":""}],"data":{},"engine":{"weights":{"Daylight":0.3,"Cost":0.2,"Buildability":0.25,"Identity":0.25}},"examples":[{"title":"First working pass","body":"Massing Option Matrix turns a loose input into a copy-ready output that can be reviewed, saved, or exported."},{"title":"Repeat workflow","body":"The browser workspace keeps saved projects local so repeat visitors can use the same tool without a backend login."},{"title":"Professional review","body":"Use the result as a structured starter, then confirm local rules, project standards, prices, and assumptions before final use."}],"faq":[{"q":"Is Massing Option Matrix free to use?","a":"Yes. This pilot is a free browser-side SaaS utility with copy, save, and JSON export actions."},{"q":"Does it replace a licensed professional?","a":"No. It creates a useful first pass and checking structure; final decisions still need qualified review."},{"q":"Where are saved projects stored?","a":"Saved projects are kept in this browser's localStorage for the static pilot build."}],"limits":["Do not treat generated outputs as legal, code, engineering, tax, or safety certification.","No private credentials are required by this static site.","Ad placements stay outside primary action controls."]};</script>
+  <footer class="footer"><span>Massing Option Matrix for ai-architect.com</span><a href="../privacy/">Privacy</a><a href="../sitemap.xml">Sitemap</a></footer>
+  <script>window.SITE_CONFIG = {"title":"Massing Option Matrix","kind":"matrix","fields":[{"id":"rows","label":"Options: Name, Quality, Cost, Speed","type":"textarea","default":"Option A, 8, 6, 7\nOption B, 7, 8, 6\nOption C, 9, 5, 8","rows":6,"hint":""}],"data":{},"engine":{"weights":{"Quality":0.45,"Cost":0.25,"Speed":0.3}},"examples":[{"title":"Tool-first workflow","body":"Massing Option Matrix opens with the working controls so visitors can act before reading long support content."},{"title":"Reference depth","body":"Each supporting page explains a specific ai lab decision, risk, or template pattern for search and repeat use."},{"title":"Review-ready export","body":"Outputs are structured for copy, JSON download, and human review rather than pretending to replace a professional."}],"faq":[{"q":"What is Massing Option Matrix?","a":"Massing Option Matrix is a browser-side SaaS utility with a working tool, reference pages, templates, and exportable notes."},{"q":"Where is data stored?","a":"The static build stores saved projects in this browser only. It does not require login credentials."},{"q":"Can this replace professional review?","a":"No. It creates a clear first pass and checklist, but final use still needs qualified review."}],"limits":["This static tool does not provide legal, engineering, safety, tax, or code certification.","AdSense is present, but primary controls stay visually separate from ad areas.","Outputs should be checked against current project standards, local rules, and live pricing."]};</script>
   <script src="../app.js"></script>
   <script src="../saas.js"></script>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 </body>
 </html>

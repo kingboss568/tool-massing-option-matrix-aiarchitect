@@ -1,0 +1,45 @@
+Massing Option Matrix
+
+Massing Option Matrix is a practical ai lab workspace for content systems designer teams who need a working tool, reference pages, exportable notes, and SEO-ready guidance in one static site.
+
+Key sections:
+- https://massing.ai-architect.com/
+- https://massing.ai-architect.com/tool/
+- https://massing.ai-architect.com/workspace/
+- https://massing.ai-architect.com/reports/
+- https://massing.ai-architect.com/guides/
+- https://massing.ai-architect.com/library/
+- https://massing.ai-architect.com/templates/
+- https://massing.ai-architect.com/compare/
+- https://massing.ai-architect.com/checklists/
+- https://massing.ai-architect.com/integrations/
+- https://massing.ai-architect.com/settings/
+- https://massing.ai-architect.com/plans/
+- https://massing.ai-architect.com/faq/
+- https://massing.ai-architect.com/privacy/
+- https://massing.ai-architect.com/about/
+- https://massing.ai-architect.com/guides/estimate-token-spend-1/
+- https://massing.ai-architect.com/guides/draft-a-prompt-system-2/
+- https://massing.ai-architect.com/guides/compare-model-routes-3/
+- https://massing.ai-architect.com/guides/plan-batch-capacity-4/
+- https://massing.ai-architect.com/guides/audit-image-generation-costs-5/
+- https://massing.ai-architect.com/guides/export-a-workflow-brief-6/
+- https://massing.ai-architect.com/guides/estimate-token-spend-7/
+- https://massing.ai-architect.com/guides/draft-a-prompt-system-8/
+- https://massing.ai-architect.com/guides/compare-model-routes-9/
+- https://massing.ai-architect.com/guides/plan-batch-capacity-10/
+- https://massing.ai-architect.com/guides/audit-image-generation-costs-11/
+- https://massing.ai-architect.com/guides/export-a-workflow-brief-12/
+- https://massing.ai-architect.com/guides/estimate-token-spend-13/
+- https://massing.ai-architect.com/guides/draft-a-prompt-system-14/
+- https://massing.ai-architect.com/guides/compare-model-routes-15/
+- https://massing.ai-architect.com/guides/plan-batch-capacity-16/
+- https://massing.ai-architect.com/guides/audit-image-generation-costs-17/
+- https://massing.ai-architect.com/guides/export-a-workflow-brief-18/
+- https://massing.ai-architect.com/guides/estimate-token-spend-19/
+- https://massing.ai-architect.com/guides/draft-a-prompt-system-20/
+- https://massing.ai-architect.com/guides/compare-model-routes-21/
+- https://massing.ai-architect.com/guides/plan-batch-capacity-22/
+- https://massing.ai-architect.com/guides/audit-image-generation-costs-23/
+- https://massing.ai-architect.com/guides/export-a-workflow-brief-24/
+- https://massing.ai-architect.com/guides/estimate-token-spend-25/
